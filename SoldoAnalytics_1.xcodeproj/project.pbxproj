@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64D7EA9C1C39C67A00D4CED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D7EA9B1C39C67A00D4CED3 /* main.m */; };
+		64D7EA9F1C39C67A00D4CED3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D7EA9E1C39C67A00D4CED3 /* AppDelegate.m */; };
+		64D7EAA71C39C67A00D4CED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EAA61C39C67A00D4CED3 /* Assets.xcassets */; };
+		64D7EAB31C39C6C300D4CED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EAB11C39C6C300D4CED3 /* LaunchScreen.storyboard */; };
+		64D7EABB1C39C81A00D4CED3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D7EAB91C39C81A00D4CED3 /* RootViewController.m */; };
+		64D7EABC1C39C81A00D4CED3 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EABA1C39C81A00D4CED3 /* RootViewController.xib */; };
+		64D7EABF1C39CA0000D4CED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EABD1C39CA0000D4CED3 /* Main.storyboard */; };
+		64D7EAD61C39CD3800D4CED3 /* AnalyticsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D7EAC81C39CD3800D4CED3 /* AnalyticsTableViewCell.m */; };
+		64D7EAD71C39CD3800D4CED3 /* AnalyticsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EAC91C39CD3800D4CED3 /* AnalyticsTableViewCell.xib */; };
+		64D7EAD81C39CD3800D4CED3 /* AnalyticsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D7EACB1C39CD3800D4CED3 /* AnalyticsTableViewController.m */; };
+		64D7EAD91C39CD3800D4CED3 /* AnalyticsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EACC1C39CD3800D4CED3 /* AnalyticsTableViewController.xib */; };
+		64D7EADA1C39CD3800D4CED3 /* dataSample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EACD1C39CD3800D4CED3 /* dataSample.plist */; };
+		64D7EADB1C39CD3800D4CED3 /* SoldoPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D7EAD11C39CD3800D4CED3 /* SoldoPieChart.m */; };
+		64D7EADD1C39CD3800D4CED3 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D7EAD51C39CD3800D4CED3 /* XYPieChart.m */; };
+		64D7EAE41C39CDE800D4CED3 /* AnalyticsCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D7EAE01C39CDE800D4CED3 /* AnalyticsCategory.m */; };
+		64D7EAE51C39CDE800D4CED3 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D7EAE31C39CDE800D4CED3 /* CircleView.m */; };
+		64D7EAEE1C39CEC600D4CED3 /* Airlines.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EAE81C39CEC600D4CED3 /* Airlines.png */; };
+		64D7EAEF1C39CEC600D4CED3 /* Clothing.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EAE91C39CEC600D4CED3 /* Clothing.png */; };
+		64D7EAF01C39CEC600D4CED3 /* Entertainment.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EAEA1C39CEC600D4CED3 /* Entertainment.png */; };
+		64D7EAF11C39CEC600D4CED3 /* Food.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EAEB1C39CEC600D4CED3 /* Food.png */; };
+		64D7EAF21C39CEC600D4CED3 /* Hotel.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EAEC1C39CEC600D4CED3 /* Hotel.png */; };
+		64D7EAF31C39CEC600D4CED3 /* Untitled 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D7EAED1C39CEC600D4CED3 /* Untitled 5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64D7EA971C39C67A00D4CED3 /* SoldoAnalytics_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoldoAnalytics_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D7EA9B1C39C67A00D4CED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64D7EA9D1C39C67A00D4CED3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64D7EA9E1C39C67A00D4CED3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64D7EAA61C39C67A00D4CED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D7EAAB1C39C67A00D4CED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D7EAB21C39C6C300D4CED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64D7EAB81C39C81A00D4CED3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		64D7EAB91C39C81A00D4CED3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		64D7EABA1C39C81A00D4CED3 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		64D7EABE1C39CA0000D4CED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64D7EAC71C39CD3800D4CED3 /* AnalyticsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTableViewCell.h; sourceTree = "<group>"; };
+		64D7EAC81C39CD3800D4CED3 /* AnalyticsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsTableViewCell.m; sourceTree = "<group>"; };
+		64D7EAC91C39CD3800D4CED3 /* AnalyticsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnalyticsTableViewCell.xib; sourceTree = "<group>"; };
+		64D7EACA1C39CD3800D4CED3 /* AnalyticsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTableViewController.h; sourceTree = "<group>"; };
+		64D7EACB1C39CD3800D4CED3 /* AnalyticsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsTableViewController.m; sourceTree = "<group>"; };
+		64D7EACC1C39CD3800D4CED3 /* AnalyticsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnalyticsTableViewController.xib; sourceTree = "<group>"; };
+		64D7EACD1C39CD3800D4CED3 /* dataSample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dataSample.plist; sourceTree = "<group>"; };
+		64D7EAD01C39CD3800D4CED3 /* SoldoPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoldoPieChart.h; sourceTree = "<group>"; };
+		64D7EAD11C39CD3800D4CED3 /* SoldoPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoldoPieChart.m; sourceTree = "<group>"; };
+		64D7EAD41C39CD3800D4CED3 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
+		64D7EAD51C39CD3800D4CED3 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
+		64D7EADF1C39CDE800D4CED3 /* AnalyticsCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsCategory.h; sourceTree = "<group>"; };
+		64D7EAE01C39CDE800D4CED3 /* AnalyticsCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsCategory.m; sourceTree = "<group>"; };
+		64D7EAE21C39CDE800D4CED3 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		64D7EAE31C39CDE800D4CED3 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		64D7EAE81C39CEC600D4CED3 /* Airlines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Airlines.png; sourceTree = "<group>"; };
+		64D7EAE91C39CEC600D4CED3 /* Clothing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clothing.png; sourceTree = "<group>"; };
+		64D7EAEA1C39CEC600D4CED3 /* Entertainment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Entertainment.png; sourceTree = "<group>"; };
+		64D7EAEB1C39CEC600D4CED3 /* Food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Food.png; sourceTree = "<group>"; };
+		64D7EAEC1C39CEC600D4CED3 /* Hotel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hotel.png; sourceTree = "<group>"; };
+		64D7EAED1C39CEC600D4CED3 /* Untitled 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 5.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D7EA941C39C67A00D4CED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64D7EA8E1C39C67900D4CED3 = {
+			isa = PBXGroup;
+			children = (
+				64D7EA991C39C67A00D4CED3 /* SoldoAnalytics_1 */,
+				64D7EA981C39C67A00D4CED3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64D7EA981C39C67A00D4CED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EA971C39C67A00D4CED3 /* SoldoAnalytics_1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D7EA991C39C67A00D4CED3 /* SoldoAnalytics_1 */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EAB41C39C7FA00D4CED3 /* Classes */,
+				64D7EA9D1C39C67A00D4CED3 /* AppDelegate.h */,
+				64D7EA9E1C39C67A00D4CED3 /* AppDelegate.m */,
+				64D7EAE61C39CEC600D4CED3 /* Resources */,
+				64D7EAA61C39C67A00D4CED3 /* Assets.xcassets */,
+				64D7EABD1C39CA0000D4CED3 /* Main.storyboard */,
+				64D7EAAB1C39C67A00D4CED3 /* Info.plist */,
+				64D7EAB11C39C6C300D4CED3 /* LaunchScreen.storyboard */,
+				64D7EA9A1C39C67A00D4CED3 /* Supporting Files */,
+			);
+			path = SoldoAnalytics_1;
+			sourceTree = "<group>";
+		};
+		64D7EA9A1C39C67A00D4CED3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EA9B1C39C67A00D4CED3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64D7EAB41C39C7FA00D4CED3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EADE1C39CDE800D4CED3 /* AnalyticsCategory */,
+				64D7EAE11C39CDE800D4CED3 /* CustomViews */,
+				64D7EAB51C39C7FA00D4CED3 /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		64D7EAB51C39C7FA00D4CED3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EAC51C39CD3800D4CED3 /* AnalyticsTableViewController */,
+				64D7EAB71C39C7FA00D4CED3 /* RootViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		64D7EAB71C39C7FA00D4CED3 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EAB81C39C81A00D4CED3 /* RootViewController.h */,
+				64D7EAB91C39C81A00D4CED3 /* RootViewController.m */,
+				64D7EABA1C39C81A00D4CED3 /* RootViewController.xib */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		64D7EAC51C39CD3800D4CED3 /* AnalyticsTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EAC61C39CD3800D4CED3 /* AnalyticsTableViewCell */,
+				64D7EACA1C39CD3800D4CED3 /* AnalyticsTableViewController.h */,
+				64D7EACB1C39CD3800D4CED3 /* AnalyticsTableViewController.m */,
+				64D7EACC1C39CD3800D4CED3 /* AnalyticsTableViewController.xib */,
+				64D7EACD1C39CD3800D4CED3 /* dataSample.plist */,
+				64D7EACE1C39CD3800D4CED3 /* XYPieChart */,
+			);
+			path = AnalyticsTableViewController;
+			sourceTree = "<group>";
+		};
+		64D7EAC61C39CD3800D4CED3 /* AnalyticsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EAC71C39CD3800D4CED3 /* AnalyticsTableViewCell.h */,
+				64D7EAC81C39CD3800D4CED3 /* AnalyticsTableViewCell.m */,
+				64D7EAC91C39CD3800D4CED3 /* AnalyticsTableViewCell.xib */,
+			);
+			path = AnalyticsTableViewCell;
+			sourceTree = "<group>";
+		};
+		64D7EACE1C39CD3800D4CED3 /* XYPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EAD01C39CD3800D4CED3 /* SoldoPieChart.h */,
+				64D7EAD11C39CD3800D4CED3 /* SoldoPieChart.m */,
+				64D7EAD41C39CD3800D4CED3 /* XYPieChart.h */,
+				64D7EAD51C39CD3800D4CED3 /* XYPieChart.m */,
+			);
+			path = XYPieChart;
+			sourceTree = "<group>";
+		};
+		64D7EADE1C39CDE800D4CED3 /* AnalyticsCategory */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EADF1C39CDE800D4CED3 /* AnalyticsCategory.h */,
+				64D7EAE01C39CDE800D4CED3 /* AnalyticsCategory.m */,
+			);
+			path = AnalyticsCategory;
+			sourceTree = "<group>";
+		};
+		64D7EAE11C39CDE800D4CED3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EAE21C39CDE800D4CED3 /* CircleView.h */,
+				64D7EAE31C39CDE800D4CED3 /* CircleView.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		64D7EAE61C39CEC600D4CED3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EAE71C39CEC600D4CED3 /* SoldoAnalyticsIcons */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64D7EAE71C39CEC600D4CED3 /* SoldoAnalyticsIcons */ = {
+			isa = PBXGroup;
+			children = (
+				64D7EAE81C39CEC600D4CED3 /* Airlines.png */,
+				64D7EAE91C39CEC600D4CED3 /* Clothing.png */,
+				64D7EAEA1C39CEC600D4CED3 /* Entertainment.png */,
+				64D7EAEB1C39CEC600D4CED3 /* Food.png */,
+				64D7EAEC1C39CEC600D4CED3 /* Hotel.png */,
+				64D7EAED1C39CEC600D4CED3 /* Untitled 5.png */,
+			);
+			path = SoldoAnalyticsIcons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D7EA961C39C67A00D4CED3 /* SoldoAnalytics_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D7EAAE1C39C67A00D4CED3 /* Build configuration list for PBXNativeTarget "SoldoAnalytics_1" */;
+			buildPhases = (
+				64D7EA931C39C67A00D4CED3 /* Sources */,
+				64D7EA941C39C67A00D4CED3 /* Frameworks */,
+				64D7EA951C39C67A00D4CED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoldoAnalytics_1;
+			productName = SoldoAnalytics_1;
+			productReference = 64D7EA971C39C67A00D4CED3 /* SoldoAnalytics_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D7EA8F1C39C67900D4CED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Daniele Candotti";
+				TargetAttributes = {
+					64D7EA961C39C67A00D4CED3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 64D7EA921C39C67900D4CED3 /* Build configuration list for PBXProject "SoldoAnalytics_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D7EA8E1C39C67900D4CED3;
+			productRefGroup = 64D7EA981C39C67A00D4CED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D7EA961C39C67A00D4CED3 /* SoldoAnalytics_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D7EA951C39C67A00D4CED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D7EAA71C39C67A00D4CED3 /* Assets.xcassets in Resources */,
+				64D7EADA1C39CD3800D4CED3 /* dataSample.plist in Resources */,
+				64D7EAB31C39C6C300D4CED3 /* LaunchScreen.storyboard in Resources */,
+				64D7EAD91C39CD3800D4CED3 /* AnalyticsTableViewController.xib in Resources */,
+				64D7EAF11C39CEC600D4CED3 /* Food.png in Resources */,
+				64D7EAD71C39CD3800D4CED3 /* AnalyticsTableViewCell.xib in Resources */,
+				64D7EABC1C39C81A00D4CED3 /* RootViewController.xib in Resources */,
+				64D7EAEE1C39CEC600D4CED3 /* Airlines.png in Resources */,
+				64D7EAF21C39CEC600D4CED3 /* Hotel.png in Resources */,
+				64D7EAEF1C39CEC600D4CED3 /* Clothing.png in Resources */,
+				64D7EAF31C39CEC600D4CED3 /* Untitled 5.png in Resources */,
+				64D7EAF01C39CEC600D4CED3 /* Entertainment.png in Resources */,
+				64D7EABF1C39CA0000D4CED3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D7EA931C39C67A00D4CED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D7EADD1C39CD3800D4CED3 /* XYPieChart.m in Sources */,
+				64D7EAE41C39CDE800D4CED3 /* AnalyticsCategory.m in Sources */,
+				64D7EA9F1C39C67A00D4CED3 /* AppDelegate.m in Sources */,
+				64D7EADB1C39CD3800D4CED3 /* SoldoPieChart.m in Sources */,
+				64D7EA9C1C39C67A00D4CED3 /* main.m in Sources */,
+				64D7EAE51C39CDE800D4CED3 /* CircleView.m in Sources */,
+				64D7EAD61C39CD3800D4CED3 /* AnalyticsTableViewCell.m in Sources */,
+				64D7EAD81C39CD3800D4CED3 /* AnalyticsTableViewController.m in Sources */,
+				64D7EABB1C39C81A00D4CED3 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64D7EAB11C39C6C300D4CED3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D7EAB21C39C6C300D4CED3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		64D7EABD1C39CA0000D4CED3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D7EABE1C39CA0000D4CED3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D7EAAC1C39C67A00D4CED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64D7EAAD1C39C67A00D4CED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D7EAAF1C39C67A00D4CED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoldoAnalytics_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.candotti.SoldoAnalytics-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64D7EAB01C39C67A00D4CED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoldoAnalytics_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.candotti.SoldoAnalytics-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D7EA921C39C67900D4CED3 /* Build configuration list for PBXProject "SoldoAnalytics_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D7EAAC1C39C67A00D4CED3 /* Debug */,
+				64D7EAAD1C39C67A00D4CED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D7EAAE1C39C67A00D4CED3 /* Build configuration list for PBXNativeTarget "SoldoAnalytics_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D7EAAF1C39C67A00D4CED3 /* Debug */,
+				64D7EAB01C39C67A00D4CED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64D7EA8F1C39C67900D4CED3 /* Project object */;
+}
